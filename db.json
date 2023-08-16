@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Jessamine",
+      "last_name": "Lamerton",
+      "email": "jlamerton0@bbb.org",
+      "role": "Architect"
+    },
+    {
+      "id": 2,
+      "first_name": "Axe",
+      "last_name": "Maier",
+      "email": "amaier1@sakura.ne.jp",
+      "role": "Surveyor"
+    },
+    {
+      "id": 3,
+      "first_name": "Laurie",
+      "last_name": "Woller",
+      "email": "lwoller2@amazon.co.jp",
+      "role": "Construction Foreman"
+    },
+    {
+      "id": 4,
+      "first_name": "Rosanna",
+      "last_name": "Onslow",
+      "email": "ronslow3@issuu.com",
+      "role": "Estimator"
+    },
+    {
+      "id": 5,
+      "first_name": "Gwendolen",
+      "last_name": "Whild",
+      "email": "gwhild4@instagram.com",
+      "role": "Estimator"
+    },
+    {
+      "id": 6,
+      "first_name": "Johnathan",
+      "last_name": "Crudge",
+      "email": "jcrudge5@businesswire.com",
+      "role": "Supervisor"
+    },
+    {
+      "id": 7,
+      "first_name": "Catina",
+      "last_name": "Bannerman",
+      "email": "cbannerman6@china.com.cn",
+      "role": "Construction Expeditor"
+    }
+  ]
+}
