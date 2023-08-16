@@ -1,1 +1,16 @@
-<p>users works!</p>
+<ul class="list-group p-3">
+    <li class="list-group-item active"> <h1>Users</h1> </li>
+    <li class="list-group-item"  *ngFor="let user of users; index as i">
+        <div class="row">
+            <div class="col-11">
+                <b>Ime:</b> {{ user.first_name }} <br>
+                <b>Priimek:</b> {{ user.last_name }} <br>
+                <b>E-mail:</b> {{ user.email }} <br>
+                <b>Vloga:</b> {{ user.role }} <br>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-danger" (click)="deleteUser(user.id, i)">Zbriši</button>
+            </div>
+        </div>
+    </li>
+</ul>
